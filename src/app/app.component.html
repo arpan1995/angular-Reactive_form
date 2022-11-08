@@ -1,0 +1,17 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+
+<form [formGroup]='loginForm' (ngSubmit)="loginUser()">
+<input type="text" placeholder="enter name" formControlName="user">
+<br>
+<br>
+<input type="password" placeholder="enter passcode" formControlName="password">
+<br>
+<br>
+<button>Submit</button>
+</form>
+
+
